@@ -1,0 +1,249 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "DM Sans", sans-serif; 
+    
+}
+
+
+nav{
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0B192C;
+    height: 15vh;
+   padding-right: 20px;
+   
+   z-index: 100;
+}
+nav div{
+    display: flex;
+    height: 15vh;
+    background-color: yellow;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    font-family: "DM Sans", sans-serif;
+}
+
+#navbt{
+    background: none;
+    color: white;
+    border: none;
+    padding: 2vw;
+    font: inherit;
+    font-size: large;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+}
+
+#navbt:hover{
+    text-decoration: none;
+    color: yellow;
+}
+
+#bg{
+    background-attachment: fixed;
+    height: 80vh;
+
+}
+video{
+    display: flex;
+    position: sticky;
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    background-color: black;
+    z-index: -1;
+    
+}
+
+#txt{
+    display: block;
+    max-height: 60vh;
+    top: 25%; /* Position the text in the middle vertically */
+    left: 10%;
+    font-family: "DM Sans", sans-serif; 
+    color: rgb(255, 255, 255);
+    font-size: 5vw;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+    position: absolute; 
+    z-index: 1;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    margin-top: 10vh;
+    border-radius: 4vh;
+    
+
+}
+
+#txt2{
+   margin: 0;
+}
+#svc{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 4vw;
+    max-height: 8vh;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+#prj{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 4vw;
+    max-height: 8vh;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+#cts{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 4vw;
+    max-height: 8vh;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+.container {
+    display: flex;
+    justify-content: space-around; /* Space between the divs */
+    align-items: center;
+    margin: 20px;
+}
+
+/* Individual divs */
+.image-box {
+    text-align: center; /* Centers the caption */
+    width: 30%; /* Controls width of each div (each div takes 30% of the container) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+    padding: 10px;
+}
+
+/* Image styles */
+.image-box img {
+    width: 100%; /* Image takes up full width of the div */
+    height: auto; /* Keeps image aspect ratio */
+    border-radius: 5px; /* Optional: round corners */
+}
+
+/* Caption styles */
+.image-box p {
+    margin-top: 10px;
+    font-size: 18px; /* Caption font size */
+    color: #333; /* Caption color */
+}
+
+#abt{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+  width: 45%; /* Adjust width as needed */
+  padding: 2vw;
+  margin: 2vw;
+  background-color: rgb(225, 242, 248); /* Example styling */
+  text-align: center;
+}
+#abtus{
+    padding-top: 100px;
+    margin-top: 8vh;
+    margin-bottom: 0;
+    position: absolute;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-align: center;
+    right: 70%;
+}
+#est{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: yellow;
+    font-size: 5vh;
+    margin-bottom: 0;
+}
+#est h1{
+    margin-bottom: 2vh;
+}
+#est h2{
+    font-size: 3vh;
+    margin-top: 0;
+    padding-top: 0;
+}
+.container2 {
+    display: flex;
+    justify-content: space-around; /* Space between the divs */
+    align-items:center;
+    margin: 20px;
+}
+
+/* Individual divs */
+.image-box2 {
+    text-align: center; /* Centers the caption */
+    width: 30%; /* Controls width of each div (each div takes 30% of the container) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+    padding: 10px;
+}
+
+/* Image styles */
+.image-box2 img {
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image-box2 :hover{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 80vh;
+    z-index: 999;
+    object-fit: contain;
+}
+#clients{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#clients img{
+    margin-top: 0;
+    padding-top: 0;
+    width: 20vh;
+    height: 25vh;
+}
+#map{
+    width: 80%;
+    padding-left: 10%;
+}
+.contact {
+    display: flex;
+    justify-content:center;
+    padding-top: 4vh;
+    left: 15%;
+}
+
+#box3 {
+    width: 40%;
+    left:40%;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+  #box4{
+    padding-left: 0;;
+  }
+
