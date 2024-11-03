@@ -314,6 +314,7 @@ video{
 #box3 {
     width: 40%;
     left:40%;
+    padding-left:10px;
   }
 
   h2 {
