@@ -18,7 +18,7 @@ nav{
    
    z-index: 100;
 }
-nav div{
+#ydc{
     display: flex;
     height: 15vh;
     background-color: yellow;
@@ -30,6 +30,53 @@ nav div{
     width: 30vw;
     font-family: "DM Sans", sans-serif;
 }
+@media (max-width: 430px) {
+    #ydc{
+        font-size: 4vw;
+    }
+}
+.nav-menu ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  @media (max-width: 430px) {
+    .nav-menu {
+      display: none; /* Hidden by default */
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .nav-menu ul {
+      flex-direction: column;
+      align-items: center;
+      font-size: 2px;
+    }
+  
+    .nav-menu.active {
+      display:block; 
+      background-color: black;
+        padding-bottom: 3vh;
+        padding-top: 16vh;
+      
+    }
+  
+    /* Style toggle button */
+    .nav-toggle {
+      display: block;
+      font-size: 24px;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  
+  /* Hide toggle button on larger screens */
+  @media (min-width: 430px) {
+    .nav-toggle {
+      display: none;
+    }
+  }
 
 #navbt{
     background: none;
@@ -218,6 +265,35 @@ video{
     justify-content: space-around;
     align-items: center;
 }
+@media (max-width: 430px) {
+    #clients{
+        flex-direction: column;
+    }
+    #svc{
+        font-size: 10vw;
+    }
+    #prj{
+        font-size: 10vw;
+    }
+    #abtus{
+        right: 57%;
+        padding-top: 55px;
+    }
+    @media (min-width: 431) {
+        #abtus{
+            
+                padding-top: 100px;
+                margin-top: 8vh;
+                margin-bottom: 0;
+                position: absolute;
+                text-decoration: underline;
+                text-decoration-color: yellow;
+                text-align: center;
+                right: 70%;
+            
+        }
+    }
+}
 #clients img{
     margin-top: 0;
     padding-top: 0;
@@ -244,6 +320,6 @@ video{
     margin-top: 0;
   }
   #box4{
-    padding-left: 0;;
+    padding-left: 0;
   }
 
