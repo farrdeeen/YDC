@@ -14,18 +14,22 @@
     <script src="app.js"></script>
 
     
-    <nav style="position: sticky;">
+    <nav class="navbar" style="position: sticky;">
     
-    <div>YDC Constructions</div>
+    <div id="ydc">YDC Constructions</div>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+        &#9776; <!-- Unicode for "hamburger" icon -->
+      </button>
+    <div class="nav-menu">
     <ul style="list-style-type: none;">
         <a href="#bg"><button id="navbt"><li>Home</li></button></a>
         <a href="#abtus"><button id="navbt"><li>About</li></button></a>
         <a href="#svc"><button id="navbt"><li>Services</li></button></a>
         <a href="#prj"><button id="navbt"><li>Projects</li></button></a>
         <a href="#cts"> <button id="navbt"><li>Contact</li></button></a>
-
         
     </ul>
+    </div>  
     </nav>
 <section id="bg">
     <div id="vid"><video autoplay muted loop id="background-video">
