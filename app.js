@@ -17,3 +17,14 @@ document.querySelectorAll('nav a').forEach(anchor => {
       });
     });
   });
+window.onload=function(){
+    
+
+  const navToggle = document.querySelector('.nav-toggle');
+  const navMenu = document.querySelector('.nav-menu');
+  
+  // Add click event to toggle class on the menu
+  navToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+  });
+}
